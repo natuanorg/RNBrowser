@@ -36,6 +36,7 @@ const BrowserInput = ({onSubmit}) => {
           placeholderTextColor={'#ffffff'}
           selectionColor={'#88B3F1'}
           blurOnSubmit={true}
+          numberOfLines={1}
           onSubmitEditing={onSubmit}
           returnKeyType={'go'}
           returnKeyLabel={'Go'}
